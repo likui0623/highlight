@@ -6,7 +6,7 @@
 # 代码如下：
 
 /*
-    description:Element HighLight
+    description:Elements HighLight
     
     author:Allen Liu
 */
