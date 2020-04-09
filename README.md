@@ -10,6 +10,7 @@
     
     author:Allen Liu
 */
+
 (function($) {
 
     $.fn.highlight = function(options) {
