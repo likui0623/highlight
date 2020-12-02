@@ -40,3 +40,23 @@
     }
 })(jQuery);
 
+
+### 使用方法：
+
+    //Html代码
+    <input type="text" id="txtBox" />
+    <input type="password" id="txtPwd" />
+    <input type="button" id="btnHighLight" value="highlight" />
+ 
+    //调用
+    <script src="Scripts/jquery-1.5.1.min.js" type="text/javascript"></script>
+    <script src="Scripts/jquery-highlight.js" type="text/javascript"></script>
+    <script type="text/javascript">
+            $(document).ready(function() {
+                $('#btnHighLight').click(function() {
+                    $('#txtBox').highlight({lightColor:'red', lightTime: 1000 });
+                    $('#txtPwd').highlight({ lightTime: 1000 });
+                });
+            });
+    </script>
+	
